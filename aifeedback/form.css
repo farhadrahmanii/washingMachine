@@ -1,0 +1,422 @@
+.create-form-inner .create-form-ul {
+    zoom: 1;
+}
+
+.create-form-inner .create-form-ul:before,
+.create-form-inner .create-form-ul:after {
+    content: "";
+    display: table;
+}
+
+.create-form-inner .create-form-ul:after {
+    clear: both;
+}
+
+.create-form-wrap,
+.fb-product-wrap,
+#crmMailMask {
+    font-family: Arial,Helvetica,'Microsoft YaHei',SimSun,Sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+button {
+    overflow: visible;
+}
+
+textarea,
+pre {
+    overflow: auto;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+    outline: 0;
+}
+
+button,
+select {
+    text-transform: none;
+}
+
+button[disabled],
+html input[disabled] {
+    cursor: default;
+}
+
+a[href],
+label[for],
+select {
+    cursor: pointer;
+}
+
+a,
+input,
+div,
+textarea,
+span {
+    -webkit-tap-highlight-color: transparent;
+}
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+input {
+    line-height: normal;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    height: auto;
+}
+
+.create-form-inner {
+    padding: 10px 15px 15px 15px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #444;
+}
+
+.create-form-inner a {
+    text-decoration: none;
+    color: #238cc8;
+}
+
+.create-form-inner .create-form-ul {
+    margin: 0 -15px;
+}
+
+.create-form-inner .create-form-li {
+    float: left;
+    width: 50%;
+    padding: 5px 15px;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.create-form-inner .create-form-li label {
+    display: block;
+    line-height: 1;
+    color: #444;
+}
+
+.create-form-input select {
+    width: 100%;
+    display: block;
+    margin-top: 5px;
+    line-height: 21px;
+    font-size: 13px;
+    padding: 4px 6px;
+    color: #444;
+    border: 1px solid #d9d9d9;
+}
+
+.create-form-inner .create-form-li input,
+.create-form-inner .create-form-li textarea {
+    width: 100%;
+    display: block;
+    margin-top: 5px;
+    line-height: 21px;
+    font-size: 13px;
+    padding: 4px 6px;
+    color: #444;
+    border: 1px solid #d9d9d9;
+}
+
+.create-form-inner .create-form-li textarea {
+    height: 84px;
+    max-width: 100%;
+    margin-bottom: 5px;
+}
+
+.create-form-inner .create-form-li.create-form-block {
+    width: 100%;
+}
+
+@media screen and (max-width:550px){
+    .create-form-inner .create-form-li {
+        width: 100%;
+    }
+}
+
+.create-form-inner .create-form-mask {
+    position: absolute;
+    z-index: 1;
+    background: black;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.create-form-inner .create-form-cen {
+    text-align: center;
+}
+
+.create-form-inner .create-form-submit {
+    border: 0 none;
+    background: #2c9c5e;
+    padding: 7px 15px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 21px;
+    min-width: 110px;
+}
+
+.create-form-inner .create-form-input {
+    height: 53px;
+}
+
+.create-form-inner .create-form-action {
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+    position: relative;
+}
+
+.create-form-inner input,
+.create-form-inner button {
+    outline: 0;
+}
+
+.create-form-wrap {
+    padding: 0 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    background: #fff;
+}
+
+.create-form-wrap,
+.create-form-wrap * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}
+
+.create-form-wrap .create-form-title {
+    background: #2c9c5e;
+    font-size: 16px;
+    line-height: 1;
+    padding: 15px;
+    margin: 0 -6px;
+    margin-top: -1px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.fb-product-wrap {
+    max-width: 830px;
+    padding: 5px;
+    background: #fff;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #444;
+}
+
+.fb-product-wrap,
+.fb-product-wrap * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}
+
+.fb-product-wrap a {
+    text-decoration: none;
+    color: #238cc8;
+}
+
+.fb-product-wrap .ent-img4 .box,
+.fb-product-wrap .ent-img4 .line {
+    width: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+.fb-product-wrap .ent-img4,
+.fb-product-wrap .ent-img5 {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.fb-product-wrap .ent-img5 .box,
+.fb-product-wrap .ent-img5 .line {
+    width: 18%;
+}
+
+.fb-product-wrap .fb-product-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #666;
+    border-bottom: 2px solid #ddd;
+    line-height: 20px;
+    padding-bottom: 8px;
+    width: 100%;
+    margin-bottom: 15px;
+    padding-top: 5px;
+}
+
+.fb-product-wrap .fb-product-title a {
+    float: right;
+    font-size: 14px;
+    color: #777;
+}
+
+.fb-product-wrap .fb-product-title a:hover {
+    color: #3175af;
+}
+
+.fb-product-wrap div[class*="ent-img"] {
+    margin-bottom: 10px;
+}
+
+.fb-product-wrap div[class*="ent-img"] img {
+    width: 100%;
+}
+
+.fb-product-wrap div[class*="ent-img"] .box span,
+.fb-product-wrap div[class*="ent-img"] .box a.more {
+    display: block;
+    font-size: 14px;
+    line-height: 1.3;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.fb-product-wrap div[class*="ent-img"] .box {
+    padding-bottom: 20px;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+.fb-product-wrap div[class*="ent-img"] .box a {
+    color: #5b9bd1;
+}
+
+.fb-product-wrap div[class*="ent-img"] .box a:hover {
+    color: #3175af;
+}
+
+.fb-product-wrap img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+
+#crmMailMask {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #444;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 10999;
+    background: url(../img/black30.png);
+    background: rgba(80,80,80,0.5);
+}
+
+#crmMailMask,
+#crmMailMask * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}
+
+#crmMailMask:after,
+#crmMailMask>div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#crmMailMask:after {
+    content: '';
+    height: 100%;
+    width: 0;
+    overflow: hidden;
+}
+
+#crmMailMask .crmMailMask-box {
+    background: #fff;
+    width: 290px;
+    border-radius: 4px;
+    max-width: 98%;
+    padding: 15px 20px;
+    margin: 15px 0 40px 0;
+}
+
+#crmMailMask .crmMailMask-box .crmMailMask-boxBot {
+    margin-top: 10px;
+}
+
+#crmMailMask .crmMailMask-box .crmMailMask-boxBot button {
+    line-height: 1;
+    border: 0 none;
+    padding: 10px 15px;
+    background: #135287;
+    color: #fff;
+    font-size: 13px;
+    text-transform: capitalize;
+}
+
+.crm-submit-load {
+    display: inline-block;
+    width: 24px;
+    height: 20px;
+    background: url(small-load.gif) no-repeat center right;
+    vertical-align: middle;
+}
+
+.crm-body-clear {
+    overflow: hidden!important;
+}
